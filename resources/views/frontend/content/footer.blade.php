@@ -16,13 +16,13 @@
                         <p> {{ @$footer->desc }} </p>
                     </div>
                     <ul class="footer-social">
-                        <li><a href="{{ 'https://www.youtube.com/', @$footer->youtube }}" target="_blank"><i
+                        <li><a href="https://www.youtube.com/{{ @$footer->youtube }}" target="_blank"><i
                                     class="fa fa-youtube" aria-hidden="true"></i></a></li>
-                        <li><a href="{{ 'https://www.twitter.com/', @$footer->twitter }}" target="_blank"><i
+                        <li><a href="https://www.twitter.com/{{ @$footer->twitter }}" target="_blank"><i
                                     class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="{{ 'https://www.facebook.com/', @$footer->facebook }}" target="_blank"><i
+                        <li><a href="https://www.facebook.com/{{ @$footer->facebook }}" target="_blank"><i
                                     class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="{{ 'https://www.instagram.com/', @$footer->instagram }}" target="_blank"><i
+                        <li><a href="https://www.instagram.com/{{ @$footer->instagram }}" target="_blank"><i
                                     class="fa fa-instagram" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
