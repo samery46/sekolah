@@ -6,9 +6,9 @@
                     <div class="header-top-left">
                         <div class="logo-area">
                             @if (@$footer->logo == NULL)
-                            <img class="img-responsive" src="{{asset('Assets/Frontend/img/logo-footer.png')}}" alt="logo">
+                            <img class="img-responsive" src="{{asset('Assets/Frontend/img/logo-footer.png')}}" alt="">
                         @else
-                            <img class="img-responsive" src="{{asset('storage/images/logo/' .$footer->logo)}}" alt="logo">
+                            <img class="img-responsive" src="{{asset('storage/images/logo/' .$footer->logo)}}" alt="">
                         @endif
                         </div>
                     </div>
