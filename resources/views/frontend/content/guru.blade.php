@@ -22,8 +22,6 @@
                             <h3 class="item-title"><a href="#">{{ $pengajars->name }}</a></h3>
                             <span class="item-designation">{{ $pengajars->userDetail->mengajar }}</span>
                             <ul class="lecturers-social">
-                                <li><a href="{{ $pengajars->userDetail->website }}" target="_blank"><i
-                                            class="fa fa-globe" aria-hidden="true"></i></a></li>
                                 <li><a href="mailto:{{ $pengajars->userDetail->email }}"><i class="fa fa-envelope-o"
                                             aria-hidden="true"></i></a></li>
                                 <li><a href="https://wa.me/{{ $pengajars->userDetail->linkidln }}" target="_blank"><i
