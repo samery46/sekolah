@@ -34,6 +34,8 @@
                                         target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                                 <li><a href="https://www.instagram.com/{{ $pengajars->userDetail->instagram }}"
                                         target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.youtube.com/{{ $pengajars->userDetail->youtube }}"
+                                        target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                     </div>
