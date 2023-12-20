@@ -24,16 +24,16 @@
                             <ul class="lecturers-social">
                                 <li><a href="{{ $pengajars->userDetail->website }}" target="_blank"><i
                                             class="fa fa-globe" aria-hidden="true"></i></a></li>
-                                <li><a href="mailto:{{ $pengajars->email }}"><i class="fa fa-envelope-o"
+                                <li><a href="mailto:{{ $pengajars->userDetail->email }}"><i class="fa fa-envelope-o"
                                             aria-hidden="true"></i></a></li>
-                                <li><a href="https://wa.me/{{ $pengajars->linkedln }}" target="_blank"><i
+                                <li><a href="https://wa.me/{{ $pengajars->userDetail->linkedln }}" target="_blank"><i
                                             class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-                                <li><a href="{{ 'https://www.twitter.com/', $pengajars->twitter }}" target="_blank"><i
-                                            class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="{{ 'https://www.facebook.com/', $pengajars->facebook }}" target="_blank"><i
-                                            class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="https://www.instagram.com/{{ $pengajars->instagram }}" target="_blank"><i
-                                            class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                <li><a href="{{ 'https://www.twitter.com/', $pengajars->userDetail->twitter }}"
+                                        target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="{{ 'https://www.facebook.com/', $pengajars->userDetail->facebook }}"
+                                        target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="https://www.instagram.com/{{ $pengajars->userDetail->instagram }}"
+                                        target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
                             </ul>
                         </div>
                     </div>
