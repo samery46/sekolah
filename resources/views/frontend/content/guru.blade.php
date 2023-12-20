@@ -14,7 +14,7 @@
                     <div class="lecturers1-item-wrapper">
                         <div class="lecturers-img-wrapper">
                             <a href="#"><img class="img-responsive"
-                                    src="{{ asset('storage/public/images/profile/' . $pengajars->foto_profile) }}"
+                                    src="{{ asset('storage/images/profile/' . $pengajars->foto_profile) }}"
                                     alt="profil"></a>
                             {{-- <a href="#"><img class="img-responsive" src="{{asset('storage/images/profile/' .$pengajars->foto_profile)}}" alt="team"></a> --}}
                         </div>
